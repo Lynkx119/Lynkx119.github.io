@@ -1,0 +1,17 @@
+Requerimienos instituto informatica 
+
+Una landpage o sitio de Bienvenida donde exponer los cursos de informatica .Tambien los aranceles y cupones de pago. Y la explicacion delproceso de auto-matriculacion
+
+Los usuarios solo podran estar en un curso a la vez, tanto profesores como estudiantes
+
+En el sitio de profesores se accede a Publicidad sobre capacitaciones docentes, Informacion sobre derechos laborales, Correo interno, Drive-Google
+
+En el sitio de alumnos se accese a la Descripcion y Seleccion de los cursos, a la auto-matriculacion y el ingreso
+En el sitio de estudiantes tambien se enumeran los cursos hechos y el avance de cada uno.
+Los cursos se desarrollan con las herramientas de Google para educacion: Classroom, Meet, Presentaciones, Formularios, Enccuentros Grabados, etc
+
+Areas de los cursos informatica
+Office - Edicion -Diseño 
+
+
+
