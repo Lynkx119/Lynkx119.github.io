@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Mi primer Login</title>
+    <title>Rocket It School</title>
+   
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon"> 
 
     <!--JQUERY-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -16,9 +19,20 @@
 
     <!-- Nuestro css-->
     <link rel="stylesheet" type="text/css" href="assets/css/login.css" th:href="@{/css/index.css}">
+    <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
 <body>
+
+    <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <img src="assets/img/64x64-rocket-icon.png" width="43">
+      <h4 class="logo me-auto"><a href="index.html">Rocket It School</a></h4>
+
+    </div>
+  </header><!-- End Header -->
+
     <div class="modal-dialog text-center">
         <div class="col-sm-8 main-section">
             <div class="modal-content">
@@ -48,8 +62,3 @@
     </div>
 </body>
 </html>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
