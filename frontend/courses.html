@@ -77,7 +77,8 @@
                   <p class="price">$169</p>
                 </div>
 
-                <h3><a href="#">Website Design</a></h3>
+                <h3><a href="#myForm"
+                	>Website Design</a></h3>
                 <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
                 
               </div>
@@ -93,7 +94,7 @@
                   <p class="price">$250</p>
                 </div>
 
-                <h3><a href="#">React Native</a></h3>
+                <h3><a href="#myForm">React Native</a></h3>
                 <p>Et architecto provident deleniti facere repellat nobis iste. Id facere quia quae dolores dolorem tempore.</p>
                 
               </div>
@@ -109,7 +110,7 @@
                   <p class="price">$180</p>
                 </div>
 
-                <h3><a href="#">Diseño UX</a></h3>
+                <h3><a href="#myForm">Diseño UX</a></h3>
                 <p>Está centrado en la experiencia del usuario y cómo se siente éste al interactuar ya sea un sitio web, una aplicación o un software.</p>
                 
               </div>
@@ -120,6 +121,37 @@
 
       </div>
     </section><!-- End Courses Section -->
+
+
+    <section>
+		<div class="container-fluid" style="background-color: #2a60d5;">	
+			<div class="row">
+				<div class="col" style="background-color: #2a60d5;">
+					
+
+
+<form name="myForm" id=myForm action="/action_page.php" onsubmit="return validateForm()" method="post">
+
+	<h3> REGISTRATE </h3>
+	<input type="text" placeholder="Nombre" class="form-control" name="fname">
+		<input type="text" placeholder="Apellido" class="form-control" name="fapellido">
+		<input type="number" minlength=1000000 maxlength=99999999 placeholder="DNI" class="form-control" name="fdni">
+	<input type="email" placeholder="Correo Electrónico" class="form-control" name="femail">
+
+	<input type="submit" class="btn btn-danger" value="Submit">
+	  <script src="assets/js/courses.js"></script>
+</form>
+
+
+
+
+				</div>
+
+				
+	</section>
+
+
+
 
   </main><!-- End #main -->
 
