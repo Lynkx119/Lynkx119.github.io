@@ -9,7 +9,7 @@ CREATE TABLE students (
     Telefono BIGINT,
     Direccion VARCHAR(45),
     Email VARCHAR(45),
-    CONSTRAINT pk_cs PRIMARY KEY (DNI)
+    PRIMARY KEY (DNI)
 );
 
 CREATE TABLE cursos (
@@ -17,7 +17,7 @@ CREATE TABLE cursos (
     Nombre VARCHAR(45),
     Categoria VARCHAR(45),
     Precio DOUBLE,
-    CONSTRAINT pk_cc PRIMARY KEY (ID_Curso)
+    PRIMARY KEY (ID_Curso)
 );
 
 CREATE TABLE cursos_vendidos (
@@ -25,10 +25,10 @@ CREATE TABLE cursos_vendidos (
     Fecha DATE,
     Estudiante INT,
     Curso INT,
-    CONSTRAINT pk_cv PRIMARY KEY (ID_Venta),
-    CONSTRAINT fk_cur FOREIGN KEY (Curso)
+    PRIMARY KEY (ID_Venta),
+    FOREIGN KEY (Curso)
         REFERENCES cursos (ID_Curso),
-    CONSTRAINT fk_stu FOREIGN KEY (Estudiante)
+    FOREIGN KEY (Estudiante)
         REFERENCES students (DNI)
 );
 
